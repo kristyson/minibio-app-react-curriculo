@@ -1,0 +1,1 @@
+# minibio-app-react-curriculo
