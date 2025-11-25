@@ -50,22 +50,9 @@ const FILES: DownloadItem[] = [
     description: 'Versão atualizada do currículo para envio rápido.',
     filename: 'curriculo.pdf',
     remoteUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
-  },
-  {
-    id: 'portfolio',
-    title: 'Portfólio com miniapps',
-    description: 'Resumo visual com projetos mobile/web e links para repositórios.',
-    filename: 'portfolio.pdf',
-    remoteUrl: 'https://www.africau.edu/images/default/sample.pdf',
-  },
-  {
-    id: 'slides',
-    title: 'Apresentação em slides',
-    description: 'Apresentação curta para entrevistas técnicas.',
-    filename: 'apresentacao.pdf',
-    remoteUrl: 'https://gahp.net/wp-content/uploads/2017/09/sample.pdf',
-  },
+      'https://drive.google.com/file/d/1e1aBkA8ymOiO6yW79Q_RgaPA1mQg-zUu/view?usp=sharing',
+  }
+  
 ];
 
 export default function DownloadsScreen() {
@@ -268,7 +255,7 @@ const styles = StyleSheet.create({
   },
   button: {
     flex: 1,
-    minWidth: 140,
+    minWidth: 100,
     paddingVertical: 12,
     paddingHorizontal: 14,
     borderRadius: 12,

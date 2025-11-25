@@ -106,9 +106,7 @@ const PortfolioView = ({ onOpenGame }: PortfolioViewProps) => {
       <View style={styles.header}>
         <View style={styles.avatarWrapper}>
           <Image
-            source={{
-              uri: 'https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?w=400&auto=format&fit=crop',
-            }}
+            source={require('../../assets/images/img.png')}
             style={styles.avatar}
             contentFit="cover"
           />
